@@ -9,10 +9,10 @@ export default function Box2() {
         justifyContent: "center",
         alignItems: "center",
         textAlign: "center",
-        marginTop: "50px"
+        marginTop: "50px",
       }}
     >
-      <h1>Box 2</h1>
+      <h1 style={{ color: "red" }}>Box 2</h1>
 
       <Link to="/">
         <button style={{ marginTop: "10px", cursor: "pointer" }}>Home</button>
