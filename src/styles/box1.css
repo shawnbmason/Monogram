@@ -1,0 +1,37 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 50px;
+  column-gap: 45px;
+  grid-template-areas:
+    "a b"
+    "a b";
+  /* padding: 60px 550px 60px 550px; */
+}
+
+.boxOneHeader {
+  grid-area: b;
+  justify-items: start;
+  justify-content: start;
+  border: solid 1px black;
+}
+
+.boxOnePicture {
+  grid-area: a;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: solid 1px black;
+  margin-left: 100px;
+}
+
+.mini {
+  display: flex;
+  margin-right: 100px;
+}

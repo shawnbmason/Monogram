@@ -1,0 +1,246 @@
+body {
+  width: 100%;
+  height: 100%;
+  font-family: prompt, sans-serif;
+}
+
+.fa-regular {
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.firstImage {
+  height: 100vh;
+  opacity: 0.5;
+}
+
+.firstImageHeader {
+  letter-spacing: 4px;
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.imageContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ff8b68;
+  text-align: center;
+}
+
+.downButton {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: grey;
+  height: 50px;
+  width: 100%;
+  font-size: 50px;
+}
+
+.downButton :hover {
+  transition: 0.5s ease, opacity 0.25s ease;
+  color: whitesmoke;
+  cursor: pointer;
+  font-size: 5rem;
+}
+
+.firstImage {
+  font-size: 1.25rem;
+  font-weight: 300;
+  margin-top: 0px;
+}
+
+.First {
+  background-color: black;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 100;
+  margin: 0px;
+  position: absolute;
+  z-index: 1;
+}
+
+.button {
+  padding-right: 15px;
+}
+
+.headerBox {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.box_section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 100px;
+  column-gap: 20px;
+  grid-template-areas:
+    "a b"
+    "a b"
+    "c d"
+    "c d";
+  justify-items: center;
+  justify-content: center;
+  padding: 60px 550px 60px 550px;
+}
+
+.box1 {
+  grid-area: a;
+  color: #1a2456;
+}
+
+.box2 {
+  grid-area: b;
+  color: #1a2456;
+}
+
+.box3 {
+  grid-area: c;
+  color: #1a2456;
+}
+
+.box4 {
+  grid-area: d;
+  color: #1a2456;
+}
+
+p {
+  margin-top: 10px;
+}
+
+.section2 {
+  background-image: url("https://monogramcc.com/static/fb6b98aa90bbce383e12a09c50936e96/bff1b/shop-banner-module.webp");
+  width: 100%;
+  height: 500px;
+  margin-top: 35px;
+}
+
+.section2Body {
+  padding: 45px;
+}
+
+.section2Header {
+  line-height: 1.2;
+  letter-spacing: 4px;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #1a2456;
+  margin-bottom: 15px;
+}
+
+.section2P {
+  color: #1a2456;
+  text-align: center;
+}
+
+.picture2 {
+  transition: 2s ease;
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 50px;
+  column-gap: 45px;
+  grid-template-areas:
+    "a b"
+    "a b"
+    "c d"
+    "c d"
+    "e f"
+    "e f"
+    "g h"
+    "g h"
+    "i j"
+    "i j";
+
+  justify-items: center;
+  justify-content: center;
+  padding: 60px 550px 60px 550px;
+}
+
+.headerBox2 {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.box5 {
+  grid-area: a;
+  color: #1a2456;
+}
+
+.box6 {
+  grid-area: b;
+  color: #1a2456;
+}
+
+.box7 {
+  grid-area: c;
+  color: #1a2456;
+}
+
+.box8 {
+  grid-area: d;
+  color: #1a2456;
+}
+
+.box9 {
+  grid-area: e;
+  color: #1a2456;
+}
+
+.box10 {
+  grid-area: f;
+  color: #1a2456;
+}
+
+.box11 {
+  grid-area: g;
+  color: #1a2456;
+}
+
+.box12 {
+  grid-area: h;
+  color: #1a2456;
+}
+
+.box13 {
+  grid-area: i;
+  color: #1a2456;
+}
+
+.box14 {
+  grid-area: j;
+  color: #1a2456;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1a2456;
+  color: #efc2b3;
+  height: 325px;
+  margin-top: 50px;
+}

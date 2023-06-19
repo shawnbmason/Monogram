@@ -1,0 +1,37 @@
+.navbar {
+  margin: 10px;
+  padding: 15px;
+  display: flex;
+  justify-content: end;
+  background-color: #1a2456;
+  position: fixed;
+  width: 93.5vw;
+  z-index: 4;
+}
+
+.catigories {
+  display: flex;
+  align-items: center;
+}
+
+.catigories a {
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 13px;
+  color: rgb(239, 194, 179);
+}
+
+.catigories a:hover {
+  color: #ff8b68;
+}
+
+.shop {
+  font-weight: bolder;
+}
+
+.header {
+  position: absolute;
+  left: 18px;
+  color: rgb(239, 194, 179);
+}
