@@ -12,7 +12,7 @@ export default function Box2() {
         marginTop: "50px",
       }}
     >
-      <h1 style={{ color: "red" }}>Box 2</h1>
+      <h1 style={{ color: "green" }}>Box 2</h1>
 
       <Link to="/">
         <button style={{ marginTop: "10px", cursor: "pointer" }}>Home</button>
